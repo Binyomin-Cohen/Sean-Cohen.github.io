@@ -14,8 +14,12 @@ h5{
 #android{
   color:#00ff00;
 }
-#logos{
+.logos{
   display: inline;
+}
+.logos img{
+  width: 115px;
+  height: 115px;
   margin-left: 10px;
   margin-right: 10px;
 }
