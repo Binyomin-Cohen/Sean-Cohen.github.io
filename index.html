@@ -2,17 +2,18 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<h1 class="text-center"> Informal Resume</h1>
-<img id="me" src="ME.JPG" alt="Me" width="250" height="280">
+<h1> Informal Resume</h1>
+<img id="me" src="ME.JPG" alt="Me">
 
-<h5>Basics</h5>
+
+<h3>Basics</h3>
+<div class="baseSection">
 <p>
    Hi, I am Sean (aka Binyomin) Cohen.  I learned in different yeshivas (institutions devoted to
    Jewish law analysis) for a number of years,
@@ -25,7 +26,6 @@
 </p>
 <ul>
   <li>Java</li>
-  <li>Android development</li>
   <li>SQL</li>
   <li>HTML</li>
   <li>CSS</li>
@@ -33,29 +33,36 @@
   <li>JSON and XML (for those who would like to see this spelled out even though it is usually included in the above)
 </ul>
 
-<div class="logos">
+<div class="logos" id="skillsPics">
   <img src="java.png">
-  <img src="android.jpg">
   <img src="Oracle.png">
   <img src="html.png">
   <img src="js.jpg">
 </div>
+ </div>
 
-<h5>Education</h5>
+
+<h3>Education</h3>
+<div class="baseSection">
 
 <p>
    I got a bachelor in Judaic Studies, to formalize my education, while taking an elective course in java.  I went on to self-educate
-   a bit more and then got a job at <a href="http://www.bhphotovideo.com">BH Photo</a>.  I then started some android development more seriously through Udacity.com's nanodegree program.
-</p>
-<div class="logos">
-  <img src="Excelsior.png">
-  <img src="Udacity.png">
+   a bit more and then got a job at <a href="http://www.bhphotovideo.com">BH Photo</a>.  I then started some android development on
+   the side, played around with python, learned some more computer-sciency-things like data structures and algorithms,
+    and developed a true passion for just learning anything about software development.
+<div >
+  <img id="exclesior"src="Excelsior.png">
 </div>
+ </div>
 
-<h5>Experience</h5>
+
+
+<h3>Experience</h3>
+<div class="baseSection">
+<img src="BH.png">
 <p>
   So, my current job - creating and maintaing the APIs for the BH Photo mobile team...
-    <img src="BH.png">
+
   <br>
   I deal with a complex, soundly designed architecture of object oriented java.
     I code the java servlets that deal with the CRUD operations on our Oracle SQL database, manipulating
@@ -64,6 +71,6 @@
     gathering the requirements when it comes to new APIs requested from other teams and divisions.
 
 </p>
-
+ </div>
 </body>
 </html>
