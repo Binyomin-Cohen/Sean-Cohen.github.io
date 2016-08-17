@@ -1,5 +1,6 @@
 h1{
   font-size: 2em;
+  color: coral;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 body{
@@ -32,6 +33,10 @@ ul{
 h3{
   font-size: 2em;
   margin-top: 30px;
+  color:coral;
+}
+.baseSection{
+  background-color: #518394;
 }
 @media screen and ( min-width: 500px ){
   .baseSection{
@@ -40,15 +45,15 @@ h3{
   }
 }
 
-.logos{
-  display: inline;
-}
 
 .logos img{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   padding: 10px;
 }
 #exclesior{
   max-width: 100%;
+}
+#skillsPics{
+  background-color: rgba(50, 50, 40, 0.6);;
 }
