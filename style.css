@@ -59,6 +59,9 @@ h3{
 .baseSection{
   background-color:#2A2A2A;
   padding: 10px;
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
 }
 @media screen and ( min-width: 500px ){
   .baseSection{
